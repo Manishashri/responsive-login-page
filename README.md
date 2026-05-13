@@ -92,7 +92,15 @@ The application is mobile responsive and works properly on:
 Media queries and flexible layouts were used for responsiveness.
 
 ---
+## Screenshots
 
+### Login Page
+
+![Login](login.png)
+
+### Signup Page
+
+![Signup](signup.png)
 ## Live Demo
 
 https://manishashri.github.io/responsive-login-page/
