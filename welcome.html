@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="top-circle"></div>
+    <div class="bottom-circle"></div>
+
+    <div class="welcome-box">
+
+        <h1>Welcome Back</h1>
+
+        <h2 id="welcomeText"></h2>
+
+        <p>You have logged in successfully</p>
+
+        <button onclick="logout()">LOGOUT</button>
+
+    </div>
+
+</div>
+
+<script>
+
+    const name = localStorage.getItem("userName");
+
+    document.getElementById("welcomeText").innerText = name;
+
+    function logout() {
+
+        window.location.href = "index.html";
+    }
+
+</script>
+
+</body>
+</html>
